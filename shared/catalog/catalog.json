@@ -1,0 +1,860 @@
+{
+  "schemaVersion": 1,
+  "catalogKind": "fictional-sample-data",
+  "language": "ar",
+  "genres": [
+    "دراما",
+    "تشويق",
+    "كوميديا",
+    "رومانسي",
+    "تاريخي",
+    "عائلي",
+    "خيال علمي",
+    "وثائقي",
+    "مغامرة"
+  ],
+  "featuredIds": [
+    "ramal",
+    "shubbak",
+    "madar"
+  ],
+  "topTenIds": [
+    "ramal",
+    "banat",
+    "hara",
+    "beirut",
+    "qitar",
+    "ahwa",
+    "madar",
+    "shubbak"
+  ],
+  "upcoming": [
+    {
+      "titleId": "hara",
+      "label": "الموسم الرابع",
+      "day": 20,
+      "month": "نوفمبر"
+    },
+    {
+      "titleId": "madar",
+      "label": "الموسم الثاني",
+      "day": 4,
+      "month": "ديسمبر"
+    },
+    {
+      "titleId": "ahwa",
+      "label": "حلقة رمضان الخاصة",
+      "day": 18,
+      "month": "فبراير"
+    }
+  ],
+  "titles": [
+    {
+      "id": "ramal",
+      "title": "رمال الكتمان",
+      "year": 2026,
+      "genres": [
+        "تشويق",
+        "دراما"
+      ],
+      "rating": "+16",
+      "seasonCount": 2,
+      "tag": "حلقة جديدة",
+      "logline": "بئرٌ تجفّ في ليلة واحدة، وقرية كاملة تقرّر الصمت.",
+      "synopsis": "في واحةٍ على حافة الربع الخالي، تعود الطبيبة ليلى إلى قريتها لتجد البئر الوحيدة جافّة وأهلها يرفضون الكلام. كلّ حلقة تكشف سرًّا دفنته الرمال قبل ثلاثين عامًا.",
+      "cast": [
+        "نور السعدي",
+        "كريم الشاذلي",
+        "عايدة منصور"
+      ],
+      "director": "أمينة بنعلي",
+      "editorQuote": {
+        "text": "أجمل ما صُوِّر في الصحراء منذ عقد.",
+        "by": "منى الدسوقي، مجلة الشاشة"
+      },
+      "keywords": [
+        "صحراء",
+        "بئر",
+        "ليلى",
+        "كريم",
+        "غموض"
+      ],
+      "artwork": {
+        "scene": "desert",
+        "sky": [
+          "#20152D",
+          "#81494B",
+          "#E8A565"
+        ],
+        "accent": "#FFD39B",
+        "horizon": "#33222A"
+      },
+      "originalTitle": "Rimal al-Kitman",
+      "type": "series",
+      "artStyle": "desert",
+      "featured": true,
+      "episodes": [
+        {
+          "id": "ramal-s1-e1",
+          "season": 1,
+          "number": 1,
+          "title": "البئر الأولى",
+          "durationMinutes": 48
+        },
+        {
+          "id": "ramal-s1-e2",
+          "season": 1,
+          "number": 2,
+          "title": "ليلة العاصفة",
+          "durationMinutes": 39
+        },
+        {
+          "id": "ramal-s1-e3",
+          "season": 1,
+          "number": 3,
+          "title": "ما تحت الرمل",
+          "durationMinutes": 46
+        },
+        {
+          "id": "ramal-s1-e4",
+          "season": 1,
+          "number": 4,
+          "title": "البئر الثانية",
+          "durationMinutes": 53
+        },
+        {
+          "id": "ramal-s1-e5",
+          "season": 1,
+          "number": 5,
+          "title": "رسالة بلا توقيع",
+          "durationMinutes": 44
+        },
+        {
+          "id": "ramal-s1-e6",
+          "season": 1,
+          "number": 6,
+          "title": "قافلة الفجر",
+          "durationMinutes": 51
+        },
+        {
+          "id": "ramal-s1-e7",
+          "season": 1,
+          "number": 7,
+          "title": "الشاهد الأخير",
+          "durationMinutes": 42
+        },
+        {
+          "id": "ramal-s1-e8",
+          "season": 1,
+          "number": 8,
+          "title": "الكتمان",
+          "durationMinutes": 49
+        },
+        {
+          "id": "ramal-s2-e1",
+          "season": 2,
+          "number": 1,
+          "title": "عودة المطر",
+          "durationMinutes": 53
+        },
+        {
+          "id": "ramal-s2-e2",
+          "season": 2,
+          "number": 2,
+          "title": "أثر في الوادي",
+          "durationMinutes": 44
+        },
+        {
+          "id": "ramal-s2-e3",
+          "season": 2,
+          "number": 3,
+          "title": "الضيف",
+          "durationMinutes": 51
+        },
+        {
+          "id": "ramal-s2-e4",
+          "season": 2,
+          "number": 4,
+          "title": "خريطة قديمة",
+          "durationMinutes": 42
+        },
+        {
+          "id": "ramal-s2-e5",
+          "season": 2,
+          "number": 5,
+          "title": "أهل البئر",
+          "durationMinutes": 49
+        },
+        {
+          "id": "ramal-s2-e6",
+          "season": 2,
+          "number": 6,
+          "title": "قبل الرحيل",
+          "durationMinutes": 40
+        },
+        {
+          "id": "ramal-s2-e7",
+          "season": 2,
+          "number": 7,
+          "title": "باب الواحة",
+          "durationMinutes": 47
+        },
+        {
+          "id": "ramal-s2-e8",
+          "season": 2,
+          "number": 8,
+          "title": "الميراث",
+          "durationMinutes": 38
+        }
+      ]
+    },
+    {
+      "id": "shubbak",
+      "title": "شبّاك على البحر",
+      "year": 2025,
+      "genres": [
+        "رومانسي",
+        "دراما"
+      ],
+      "rating": "+13",
+      "durationMinutes": 112,
+      "logline": "صيفٌ واحد في الإسكندرية يكفي ليغيّر عمرين.",
+      "synopsis": "عازفة عود تستأجر غرفة تطلّ على البحر لتكتب ألبومها الأخير، فتكتشف أن صاحب البيت يعرف أغانيها كلّها، وأنه كان ينتظرها منذ زمن.",
+      "cast": [
+        "سلمى الخطيب",
+        "يوسف المنصوري"
+      ],
+      "director": "دينا فهمي",
+      "editorQuote": {
+        "text": "فيلم يُسمَع بقدر ما يُشاهَد.",
+        "by": "طارق سليم، سينماتيك"
+      },
+      "keywords": [
+        "بحر",
+        "إسكندرية",
+        "موسيقى",
+        "صيف",
+        "عود"
+      ],
+      "artwork": {
+        "scene": "sea",
+        "sky": [
+          "#1E3152",
+          "#BA7170",
+          "#F4C994"
+        ],
+        "accent": "#FFF1CC",
+        "horizon": "#34405C"
+      },
+      "originalTitle": "Shubbak ʿala al-Baḥr",
+      "type": "film",
+      "artStyle": "sea",
+      "featured": true
+    },
+    {
+      "id": "madar",
+      "title": "المدار",
+      "year": 2026,
+      "genres": [
+        "خيال علمي",
+        "تشويق"
+      ],
+      "rating": "+16",
+      "seasonCount": 1,
+      "logline": "أوّل محطة عربية في المدار تتوقّف عن الردّ.",
+      "synopsis": "حين تنقطع الاتصالات بمحطة الزُّهرة، يصعد طاقم إنقاذ صغير ليكتشف أن الطاقم الأصلي لم يغادر، لكنه لم يعد كما كان.",
+      "cast": [
+        "رنا قبّاني",
+        "كريم الشاذلي"
+      ],
+      "director": "سامي الحلبي",
+      "editorQuote": {
+        "text": "خيال علمي عربي بثقة نادرة.",
+        "by": "طارق سليم، سينماتيك"
+      },
+      "keywords": [
+        "فضاء",
+        "محطة",
+        "كوكب",
+        "نجوم",
+        "رنا"
+      ],
+      "artwork": {
+        "scene": "space",
+        "sky": [
+          "#050810",
+          "#172044",
+          "#51416A"
+        ],
+        "accent": "#E7B98F",
+        "horizon": "#11182E"
+      },
+      "originalTitle": "Al-Madar",
+      "type": "series",
+      "artStyle": "space",
+      "featured": true,
+      "episodes": [
+        {
+          "id": "madar-s1-e1",
+          "season": 1,
+          "number": 1,
+          "title": "الإطلاق",
+          "durationMinutes": 48
+        },
+        {
+          "id": "madar-s1-e2",
+          "season": 1,
+          "number": 2,
+          "title": "صمت المحطة",
+          "durationMinutes": 39
+        },
+        {
+          "id": "madar-s1-e3",
+          "season": 1,
+          "number": 3,
+          "title": "الإشارة",
+          "durationMinutes": 46
+        },
+        {
+          "id": "madar-s1-e4",
+          "season": 1,
+          "number": 4,
+          "title": "الحزام",
+          "durationMinutes": 53
+        },
+        {
+          "id": "madar-s1-e5",
+          "season": 1,
+          "number": 5,
+          "title": "الوجه الآخر",
+          "durationMinutes": 44
+        },
+        {
+          "id": "madar-s1-e6",
+          "season": 1,
+          "number": 6,
+          "title": "العودة",
+          "durationMinutes": 51
+        }
+      ]
+    },
+    {
+      "id": "hara",
+      "title": "حارة الصفصاف",
+      "year": 2024,
+      "genres": [
+        "دراما",
+        "عائلي"
+      ],
+      "rating": "+13",
+      "seasonCount": 3,
+      "tag": "موسم جديد",
+      "logline": "حارة واحدة، سبع عائلات، وشجرة تعرف كلّ الحكايات.",
+      "synopsis": "دراما عائلية عن حارة قديمة في القاهرة تقاوم الهدم، يرويها صاحب الدكّان الذي لم يغادرها منذ خمسين عامًا.",
+      "cast": [
+        "ماجد العلي",
+        "نور السعدي",
+        "عايدة منصور"
+      ],
+      "director": "شريف الحسيني",
+      "editorQuote": {
+        "text": "دفءٌ نادر في دراما هذه الأيام.",
+        "by": "ريم العطّار، فنون"
+      },
+      "keywords": [
+        "قاهرة",
+        "حارة",
+        "عائلة",
+        "شجرة",
+        "ماجد"
+      ],
+      "artwork": {
+        "scene": "alley",
+        "sky": [
+          "#0B1424",
+          "#253657",
+          "#566A8B"
+        ],
+        "accent": "#F0A660",
+        "horizon": "#181B2A"
+      },
+      "originalTitle": "Harat al-Safsaf",
+      "type": "series",
+      "artStyle": "alley",
+      "featured": false,
+      "episodes": [
+        {
+          "id": "hara-s1-e1",
+          "season": 1,
+          "number": 1,
+          "title": "عودة سليم",
+          "durationMinutes": 47
+        },
+        {
+          "id": "hara-s1-e2",
+          "season": 1,
+          "number": 2,
+          "title": "عرس في الحارة",
+          "durationMinutes": 38
+        },
+        {
+          "id": "hara-s1-e3",
+          "season": 1,
+          "number": 3,
+          "title": "دكّان أم فتحي",
+          "durationMinutes": 45
+        },
+        {
+          "id": "hara-s1-e4",
+          "season": 1,
+          "number": 4,
+          "title": "المفتاح",
+          "durationMinutes": 52
+        },
+        {
+          "id": "hara-s1-e5",
+          "season": 1,
+          "number": 5,
+          "title": "شجرة الصفصاف",
+          "durationMinutes": 43
+        },
+        {
+          "id": "hara-s1-e6",
+          "season": 1,
+          "number": 6,
+          "title": "الخطاب",
+          "durationMinutes": 50
+        },
+        {
+          "id": "hara-s1-e7",
+          "season": 1,
+          "number": 7,
+          "title": "بيت للبيع",
+          "durationMinutes": 41
+        },
+        {
+          "id": "hara-s1-e8",
+          "season": 1,
+          "number": 8,
+          "title": "الفرح المؤجَّل",
+          "durationMinutes": 48
+        },
+        {
+          "id": "hara-s2-e1",
+          "season": 2,
+          "number": 1,
+          "title": "صباح جديد",
+          "durationMinutes": 52
+        },
+        {
+          "id": "hara-s2-e2",
+          "season": 2,
+          "number": 2,
+          "title": "البيت الكبير",
+          "durationMinutes": 43
+        },
+        {
+          "id": "hara-s2-e3",
+          "season": 2,
+          "number": 3,
+          "title": "أوراق قديمة",
+          "durationMinutes": 50
+        },
+        {
+          "id": "hara-s2-e4",
+          "season": 2,
+          "number": 4,
+          "title": "قرار صعب",
+          "durationMinutes": 41
+        },
+        {
+          "id": "hara-s2-e5",
+          "season": 2,
+          "number": 5,
+          "title": "ضيف من بعيد",
+          "durationMinutes": 48
+        },
+        {
+          "id": "hara-s2-e6",
+          "season": 2,
+          "number": 6,
+          "title": "الظل",
+          "durationMinutes": 39
+        },
+        {
+          "id": "hara-s2-e7",
+          "season": 2,
+          "number": 7,
+          "title": "وعد سليم",
+          "durationMinutes": 46
+        },
+        {
+          "id": "hara-s2-e8",
+          "season": 2,
+          "number": 8,
+          "title": "الحارة لنا",
+          "durationMinutes": 53
+        },
+        {
+          "id": "hara-s3-e1",
+          "season": 3,
+          "number": 1,
+          "title": "باب الحارة",
+          "durationMinutes": 41
+        },
+        {
+          "id": "hara-s3-e2",
+          "season": 3,
+          "number": 2,
+          "title": "صورة ناقصة",
+          "durationMinutes": 48
+        },
+        {
+          "id": "hara-s3-e3",
+          "season": 3,
+          "number": 3,
+          "title": "الطريق",
+          "durationMinutes": 39
+        },
+        {
+          "id": "hara-s3-e4",
+          "season": 3,
+          "number": 4,
+          "title": "السوق القديم",
+          "durationMinutes": 46
+        },
+        {
+          "id": "hara-s3-e5",
+          "season": 3,
+          "number": 5,
+          "title": "موعد المطر",
+          "durationMinutes": 53
+        },
+        {
+          "id": "hara-s3-e6",
+          "season": 3,
+          "number": 6,
+          "title": "الحقيقة",
+          "durationMinutes": 44
+        },
+        {
+          "id": "hara-s3-e7",
+          "season": 3,
+          "number": 7,
+          "title": "بيت أم فتحي",
+          "durationMinutes": 51
+        },
+        {
+          "id": "hara-s3-e8",
+          "season": 3,
+          "number": 8,
+          "title": "الصفصاف",
+          "durationMinutes": 42
+        }
+      ]
+    },
+    {
+      "id": "beirut",
+      "title": "عشرة أيام في بيروت",
+      "year": 2025,
+      "genres": [
+        "رومانسي",
+        "دراما"
+      ],
+      "rating": "+13",
+      "durationMinutes": 104,
+      "logline": "مطر، ومطارٌ مغلق، وغريبان في مدينة واحدة.",
+      "synopsis": "حين يُغلَق المطار، يقضي مصوّر سوداني ومترجمة لبنانية عشرة أيام في التجوال بين أحياء بيروت.",
+      "cast": [
+        "يوسف المنصوري",
+        "رنا قبّاني"
+      ],
+      "director": "كارلا نصّار",
+      "editorQuote": {
+        "text": "رسالة حبّ إلى مدينة متعبة.",
+        "by": "منى الدسوقي، الشاشة"
+      },
+      "keywords": [
+        "بيروت",
+        "مطر",
+        "مدينة",
+        "حب",
+        "مطار"
+      ],
+      "artwork": {
+        "scene": "city",
+        "sky": [
+          "#171226",
+          "#563552",
+          "#B86B72"
+        ],
+        "accent": "#F5AD6C",
+        "horizon": "#1D1B2B"
+      },
+      "originalTitle": "ʿAsharat Ayyam fi Bayrut",
+      "type": "film",
+      "artStyle": "city",
+      "featured": false
+    },
+    {
+      "id": "qitar",
+      "title": "آخر قطار إلى أسوان",
+      "year": 2023,
+      "genres": [
+        "تشويق",
+        "تاريخي"
+      ],
+      "rating": "+13",
+      "durationMinutes": 124,
+      "logline": "١٩٥٢. رحلة ليلية واحدة، وحقيبة لا يجب أن تصل.",
+      "synopsis": "على متن القطار الأخير المتّجه جنوبًا ليلة الثورة، يكتشف مفتّش التذاكر أن أحد الركّاب يحمل وثيقة قد تغيّر مصير البلاد.",
+      "cast": [
+        "كريم الشاذلي",
+        "عايدة منصور"
+      ],
+      "director": "عمرو الصيّاد",
+      "editorQuote": {
+        "text": "تشويق كلاسيكي بإيقاع لا يهدأ.",
+        "by": "منى الدسوقي، الشاشة"
+      },
+      "keywords": [
+        "قطار",
+        "نيل",
+        "ثورة",
+        "أسوان",
+        "حقيبة"
+      ],
+      "artwork": {
+        "scene": "train",
+        "sky": [
+          "#2D1C40",
+          "#A65050",
+          "#F2AC65"
+        ],
+        "accent": "#FFD38B",
+        "horizon": "#241729"
+      },
+      "originalTitle": "Akher Qitar ila Aswan",
+      "type": "film",
+      "artStyle": "train",
+      "featured": false
+    },
+    {
+      "id": "banat",
+      "title": "بنات الضوء",
+      "year": 2026,
+      "genres": [
+        "دراما"
+      ],
+      "rating": "+16",
+      "seasonCount": 1,
+      "tag": "جديد",
+      "logline": "ثلاث ممرّضات، ووردية ليلية لا تنتهي.",
+      "synopsis": "في مستشفى حكومي بعمّان، تتقاطع حياة ثلاث ممرّضات خلال ورديات الليل، بين الطوارئ والأحلام المؤجّلة.",
+      "cast": [
+        "نور السعدي",
+        "هند الرفاعي",
+        "رنا قبّاني"
+      ],
+      "director": "لينا عوض",
+      "editorQuote": {
+        "text": "أداء جماعي يلمع في العتمة.",
+        "by": "ريم العطّار، فنون"
+      },
+      "keywords": [
+        "مدينة",
+        "عمّان",
+        "مستشفى",
+        "ليل",
+        "ممرّضات"
+      ],
+      "artwork": {
+        "scene": "hospital",
+        "sky": [
+          "#071625",
+          "#164454",
+          "#4E8585"
+        ],
+        "accent": "#9FE3D2",
+        "horizon": "#0A1922"
+      },
+      "originalTitle": "Banat al-Dawʾ",
+      "type": "series",
+      "artStyle": "hospital",
+      "featured": false,
+      "episodes": [
+        {
+          "id": "banat-s1-e1",
+          "season": 1,
+          "number": 1,
+          "title": "الوردية الليلية",
+          "durationMinutes": 48
+        },
+        {
+          "id": "banat-s1-e2",
+          "season": 1,
+          "number": 2,
+          "title": "الإشارة الحمراء",
+          "durationMinutes": 39
+        },
+        {
+          "id": "banat-s1-e3",
+          "season": 1,
+          "number": 3,
+          "title": "نور",
+          "durationMinutes": 46
+        },
+        {
+          "id": "banat-s1-e4",
+          "season": 1,
+          "number": 4,
+          "title": "بلا كهرباء",
+          "durationMinutes": 53
+        },
+        {
+          "id": "banat-s1-e5",
+          "season": 1,
+          "number": 5,
+          "title": "الطابق الحادي عشر",
+          "durationMinutes": 44
+        },
+        {
+          "id": "banat-s1-e6",
+          "season": 1,
+          "number": 6,
+          "title": "قبل الفجر",
+          "durationMinutes": 51
+        }
+      ]
+    },
+    {
+      "id": "ahwa",
+      "title": "قهوة أبو الليل",
+      "year": 2025,
+      "genres": [
+        "كوميديا",
+        "عائلي"
+      ],
+      "rating": "+7",
+      "seasonCount": 2,
+      "logline": "مقهى صغير، وزبائن لا يدفعون أبدًا.",
+      "synopsis": "كوميديا عن مقهى شعبي يحاول صاحبه إنقاذه من الإفلاس بأفكار أغرب من زبائنه.",
+      "cast": [
+        "طارق عبد الهادي",
+        "سلمى الخطيب"
+      ],
+      "director": "هاني رزق",
+      "editorQuote": {
+        "text": "ضحك نظيف من أوّل حلقة.",
+        "by": "طارق سليم، سينماتيك"
+      },
+      "keywords": [
+        "مقهى",
+        "كوميديا",
+        "شاي",
+        "طاولة",
+        "ليل"
+      ],
+      "artwork": {
+        "scene": "cafe",
+        "sky": [
+          "#30190F",
+          "#784525",
+          "#C98643"
+        ],
+        "accent": "#FFD28A",
+        "horizon": "#21120D"
+      },
+      "originalTitle": "Qahwat Abu al-Layl",
+      "type": "series",
+      "artStyle": "cafe",
+      "featured": false,
+      "episodes": [
+        {
+          "id": "ahwa-s1-e1",
+          "season": 1,
+          "number": 1,
+          "title": "الكرسي المحجوز",
+          "durationMinutes": 47
+        },
+        {
+          "id": "ahwa-s1-e2",
+          "season": 1,
+          "number": 2,
+          "title": "مباراة القرن",
+          "durationMinutes": 38
+        },
+        {
+          "id": "ahwa-s1-e3",
+          "season": 1,
+          "number": 3,
+          "title": "الزبون الغامض",
+          "durationMinutes": 45
+        },
+        {
+          "id": "ahwa-s1-e4",
+          "season": 1,
+          "number": 4,
+          "title": "ليلة الطاولة",
+          "durationMinutes": 52
+        },
+        {
+          "id": "ahwa-s1-e5",
+          "season": 1,
+          "number": 5,
+          "title": "شاي بالنعناع",
+          "durationMinutes": 43
+        },
+        {
+          "id": "ahwa-s1-e6",
+          "season": 1,
+          "number": 6,
+          "title": "الافتتاح الكبير",
+          "durationMinutes": 50
+        },
+        {
+          "id": "ahwa-s2-e1",
+          "season": 2,
+          "number": 1,
+          "title": "فاتورة قديمة",
+          "durationMinutes": 52
+        },
+        {
+          "id": "ahwa-s2-e2",
+          "season": 2,
+          "number": 2,
+          "title": "المقهى الجديد",
+          "durationMinutes": 43
+        },
+        {
+          "id": "ahwa-s2-e3",
+          "season": 2,
+          "number": 3,
+          "title": "ضيف المساء",
+          "durationMinutes": 50
+        },
+        {
+          "id": "ahwa-s2-e4",
+          "season": 2,
+          "number": 4,
+          "title": "أبو الليل يغنّي",
+          "durationMinutes": 41
+        },
+        {
+          "id": "ahwa-s2-e5",
+          "season": 2,
+          "number": 5,
+          "title": "الطاولة رقم سبعة",
+          "durationMinutes": 48
+        },
+        {
+          "id": "ahwa-s2-e6",
+          "season": 2,
+          "number": 6,
+          "title": "العودة",
+          "durationMinutes": 39
+        }
+      ]
+    }
+  ]
+}

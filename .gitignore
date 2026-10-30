@@ -1,0 +1,30 @@
+# Allow-list: only the apps are published. Everything else in this folder stays local
+# (decompiled third-party APK, scraper tools, proxy, API inventory, agent files).
+/*
+!/.gitignore
+!/HANDOFF.md
+!/web/
+!/android/
+!/shared/
+!/mashhad/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+local.properties
+keystore/
+keystore.properties
+*.jks
+*.keystore
+
+# Build output and dependencies
+node_modules/
+dist/
+*.tsbuildinfo
+.gradle/
+.kotlin/
+build/
+*.apk
+*.aab
+.DS_Store
