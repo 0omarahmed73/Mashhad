@@ -7,6 +7,7 @@
 !/android/
 !/shared/
 !/mashhad/
+!/.github/
 
 # Secrets and local settings
 .env
