@@ -665,11 +665,11 @@ function PlayerOverlay({ state, setState, onClose }: { state: PlayerState; setSt
   // In-app playback via embed for TMDB-backed titles (has ads; OM Player stays ad-free for local files).
   if (title.tmdbId) {
     const tmdbId = title.tmdbId;
-    let embedUrl = `https://vidsrc.to/embed/movie/${tmdbId}`;
+    let embedUrl = `https://hnembed.cc/embed/movie/${tmdbId}`;
     if (title.type === 'series') {
       const season = episode?.season ?? 1;
       const number = episode?.number ?? 1;
-      embedUrl = `https://vidsrc.to/embed/tv/${tmdbId}/${season}/${number}`;
+      embedUrl = `https://hnembed.cc/embed/tv/${tmdbId}/${season}/${number}`;
     }
     return (
       <div className="player-overlay" role="dialog" aria-modal="true" aria-label="مشغّل">
