@@ -19,7 +19,7 @@ jobs:
     timeout-minutes: 20
     env:
       VERCEL_ORG_ID: team_Ssk9tx5UFL2cjqUf1tzOsoUI
-      VERCEL_PROJECT_ID: prj_UrikzLaWDLmfcz7LAhCDstMIrSO5
+      VERCEL_PROJECT_ID: prj_PG15GgNNmKGv49o1nU30tMxLZrTV
     steps:
       - uses: actions/checkout@v7.0.1
 
