@@ -15,7 +15,7 @@ object PlaybackSource {
     ): String? {
         val tmdbId = title.tmdbId
 
-        return if (title.type == "series") {
+        return if (title.kind == Kind.Tv) {
             val seasonNumber = season ?: 1
             val episodeNumber = episode ?: 1
 

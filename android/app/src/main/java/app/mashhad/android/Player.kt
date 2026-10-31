@@ -1,5 +1,7 @@
 package app.mashhad.android
-
+import android.webkit.WebChromeClient
+import android.webkit.WebView
+import android.webkit.WebViewClient
 import android.app.Activity
 import androidx.annotation.OptIn
 import androidx.compose.foundation.background
@@ -106,14 +108,23 @@ internal fun PlayerScreen(title: Title, startSeason: Int?, startEpisode: Int?, s
 
     // Resolve the stream for the current film/episode and resume at its saved position.
     LaunchedEffect(season, episode) {
-        resolving = true
-        url = PlaybackSource.urlFor(title, season, episode)
-        resolving = false
-        url?.let {
-            player.setMediaItem(MediaItem.fromUri(it), store.resumePosition(title, season, episode))
-            player.prepare()
-        }
+    resolving = true
+
+    player.stop()
+    player.clearMediaItems()
+
+    url = PlaybackSource.urlFor(title, season, episode)
+
+    if (url != null && !url!!.contains("vidsrc.to/embed/")) {
+        player.setMediaItem(
+            MediaItem.fromUri(url!!),
+            store.resumePosition(title, season, episode)
+        )
+        player.prepare()
     }
+
+    resolving = false
+}
     // Save the position every five seconds while playing.
     LaunchedEffect(Unit) {
         while (true) {
@@ -134,17 +145,29 @@ internal fun PlayerScreen(title: Title, startSeason: Int?, startEpisode: Int?, s
     fun play(s: Int, e: Int) { save(); season = s; episode = e; pickerOpen = false }
 
     Box(Modifier.fillMaxSize().background(Color.Black)) {
+
         AndroidView(
             factory = { ctx ->
-                PlayerView(ctx).apply {
-                    this.player = player
-                    setShowNextButton(false)
-                    setShowPreviousButton(false)
-                    setControllerVisibilityListener(PlayerView.ControllerVisibilityListener { visibility -> controlsVisible = visibility == android.view.View.VISIBLE })
+                WebView(ctx).apply {
+                    settings.javaScriptEnabled = true
+                    settings.domStorageEnabled = true
+                    settings.mediaPlaybackRequiresUserGesture = false
+
+                    webViewClient = WebViewClient()
+                    webChromeClient = WebChromeClient()
+
+                    setBackgroundColor(android.graphics.Color.BLACK)
                 }
             },
-            modifier = Modifier.fillMaxSize(),
+            update = { webView ->
+                if (url != null && webView.tag != url) {
+                    webView.tag = url
+                    webView.loadUrl(url!!)
+                }
+            },
+            modifier = Modifier.fillMaxSize()
         )
+
 
         if (url == null && !resolving) Column(
             Modifier.align(Alignment.Center).padding(32.dp), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(10.dp),
@@ -166,7 +189,7 @@ internal fun PlayerScreen(title: Title, startSeason: Int?, startEpisode: Int?, s
             Column(Modifier.weight(1f)) {
                 Text(title.name, color = Foreground, fontWeight = FontWeight.Bold, maxLines = 1, overflow = TextOverflow.Ellipsis)
                 val label = if (season != null) "م${ar(season!!)} ح${ar(episode ?: 1)}" + (currentEpisode?.name?.let { ": $it" } ?: "") else kindLabel(title.kind)
-                Text(label + if (PlaybackSource.USING_SAMPLES) "  ·  فيلم تجريبي مفتوح الترخيص" else "", color = Muted, fontSize = 12.sp, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                Text(label, color = Muted, fontSize = 12.sp, maxLines = 1, overflow = TextOverflow.Ellipsis)
             }
             if (next != null) PlayerChip("الحلقة التالية") { play(next.first, next.second) }
             if (isSeries) PlayerChip("الحلقات") { pickerOpen = true }
